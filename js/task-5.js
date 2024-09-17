@@ -453,3 +453,8 @@
 //   return lalala;
 // };
 // console.log(getUserWithEmail(users, "shereeanthony@kog.com"));
+// const isEveryUserActive = users.every((user) => user.isActive == true);
+// console.log(isEveryUserActive);
+
+// const isSomeUserActive = users.some((user) => user.isActive == true);
+// console.log(isSomeUserActive);
