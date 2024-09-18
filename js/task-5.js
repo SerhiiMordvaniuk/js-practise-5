@@ -458,3 +458,170 @@
 
 // const isSomeUserActive = users.some((user) => user.isActive == true);
 // console.log(isSomeUserActive);
+// const filterArray = (numbers, value) => {
+//   let newArr = [];
+//   numbers.forEach(function (number) {
+//     if (number > value) {
+//       newArr.push(number);
+//     }
+//   });
+//   return newArr;
+// };
+// console.log(filterArray([12, 24, 8, 41, 76], 38));
+
+// const lalala = function (a, b, c) {
+//   return a + b + c;
+// };
+// console.log(lalala(5, 4, 6));
+
+// const sum = (x, y, z) => x + y + z;
+// console.log(sum(1, 2, 3));
+// const numbers = [5, 10, 15, 20, 25];
+
+// numbers.forEach((number, i) => console.log(`Index ${i} - number ${number}`));
+
+// const calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach((item) => (totalPrice += item));
+
+//   return totalPrice;
+// };
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+// const ask = (question, yes, no) => {
+//   if (confirm(question)) yes();
+//   else no();
+// };
+
+// ask(
+//   "Вы согласны?",
+//   function () {
+//     alert("Вы согласились.");
+//   },
+//   function () {
+//     alert("Вы отменили выполнение.");
+//   }
+// );
+// const numbers = [1, 2, 3, 4, 5];
+// const numbers2 = [0, 2, 7, 74, 2];
+
+// const lalala = (arr, number) => {
+//   let newLalala = [];
+//   arr.forEach((elelement) => {
+//     newLalala.push(elelement * number);
+//   });
+//   return newLalala;
+// };
+// const iii = lalala(numbers2, 7);
+
+// console.log(numbers);
+// console.log(iii);
+
+// function changeEven(lalala, numb) {
+//   let oooo = [];
+
+//   lalala.forEach((lololo) => {
+//     if (lololo % 2 == 0) {
+//       lololo = lololo + numb;
+//     }
+//     oooo.push(lololo);
+//   });
+//   console.log(lalala);
+
+//   return oooo;
+// }
+
+// console.log(changeEven([1, 2, 3, 4, 5], 10));
+// const students = [
+//   { name: "Mango", courses: ["mathematics", "physics"] },
+//   { name: "Poly", courses: ["science", "mathematics"] },
+//   { name: "Kiwi", courses: ["physics", "biology"] },
+// ];
+
+// const classic = students.flatMap((student) => student.courses);
+// console.log(classic);
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     genres: ["adventure", "history"],
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     genres: ["fiction"],
+//   },
+//   {
+//     title: "Redder Than Blood",
+//     author: "Tanith Lee",
+//     genres: ["horror", "mysticism"],
+//   },
+// ];
+
+// const genres = books.flatMap((book) => book.gernes);
+// console.log(gernes);
+
+// const LOW_SCORE = 50;
+// const HIGH_SCORE = 80;
+// const students = [
+//   { name: "Mango", score: 83 },
+//   { name: "Poly", score: 59 },
+//   { name: "Ajax", score: 37 },
+//   { name: "Kiwi", score: 94 },
+//   { name: "Houston", score: 64 },
+// ];
+
+// const best = students.filter((item) => item.score >= HIGH_SCORE);
+// const norm = students.filter(
+//   (item) => item.score < HIGH_SCORE && item.score >= LOW_SCORE
+// );
+// const fuuu = students.filter((item) => item.score < LOW_SCORE);
+// console.log(best);
+// console.log(norm);
+// console.log(fuuu);
+
+// const tututu = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male",
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "gray",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female",
+//   },
+// ];
+// // const color = "blue";
+
+// const getUsersWithEyeColor = (users, color) => {
+//   return users.filter((user) => user.eyeColor == color);
+// };
+// console.log(getUsersWithEyeColor(tututu, "blue"));
+
+// const colorPickerOptions = [
+//   { label: "red", color: "#F44336" },
+//   { label: "green", color: "#4CAF50" },
+//   { label: "blue", color: "#2196F3" },
+//   { label: "pink", color: "#E91E63" },
+//   { label: "indigo", color: "#3F51B5" },
+// ];
+
+// const lalala = colorPickerOptions.find((option) => option.label == "red");
+
+// console.log(lalala);
+
+// const getUserWithEmail = (users, email) => {
+//   const lalala = users.find((user) => user.email == email);
+//   return lalala;
+// };
