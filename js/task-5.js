@@ -625,3 +625,98 @@
 //   const lalala = users.find((user) => user.email == email);
 //   return lalala;
 // };
+// const products = [
+//   { name: "apple", quantity: 2 },
+//   { name: "orange", quantity: 5 },
+//   { name: "plum", quantity: 0 },
+// ];
+
+// const lalala = products.some((key) => key.name == "apple");
+// console.log(lalala);
+// const scores = [27, 2, 41, 4, 7, 3, 75];
+// const lalala = scores.toSorted();
+// console.log(lalala);
+
+// const tututu = scores.toSorted((a, b) => b - a);
+// console.log(tututu);
+
+// const students = ["Jacob", "Artemis", "Solomon", "Adrian", "Kai", "Ganymede"];
+
+// const lalala = students.toSorted((a, b) => a.localeCompare(b));
+// console.log(lalala);
+// const tututu = students.toSorted((a, b) => b.localeCompare(a));
+// console.log(tututu);
+
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+//   "Howard Lovecraft",
+// ];
+
+// const authorsInAlphabetOrder = authors.toSorted((a, b) => a.localeCompare(b));
+
+// const authorsInReversedOrder = authors.toSorted((a, b) => b.localeCompare(a));
+
+// const students = [
+//   { name: "Mango", score: 83 },
+//   { name: "Poly", score: 59 },
+//   { name: "Ajax", score: 37 },
+//   { name: "Kiwi", score: 94 },
+// ];
+
+// const lalala = students.toSorted((a, b) => a.score - b.score);
+// console.log(lalala);
+// const tututu = students.toSorted((a, b) => b.score - a.score);
+// console.log(tututu);
+// const lololo = students.toSorted((a, b) => b.name.localeCompare(a.name));
+// console.log(lololo);
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   {
+//     title: "Redder Than Blood",
+//     author: "Tanith Lee",
+//     rating: 7.94,
+//   },
+//   {
+//     title: "Enemy of God",
+//     author: "Bernard Cornwell",
+//     rating: 8.67,
+//   },
+// ];
+
+// const sortedByAuthorName = books.toSorted((a, b) =>
+//   a.author.localeCompare(b.author)
+// );
+
+// const sortedByReversedAuthorName = books.toSorted((a, b) =>
+//   b.athor.localeCompare(a.author)
+// );
+// const sortedByReversedAuthorName = books.toSorted((a, b) =>
+//   b.author.localeCompare(a.author)
+// );
+
+// const sortedByAscendingRating = books.toSorted((a, b) => a.rating - b.rating);
+
+// const sortedByDescentingRating = books.toSorted((a, b) => b.rating - a.rating);
+
+// console.log(sortedByAuthorName);
+// console.log(sortedByReversedAuthorName);
+// console.log(sortedByAscendingRating);
+// console.log(sortedByDescentingRating);
