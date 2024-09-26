@@ -60,8 +60,11 @@
 // console.log(Car.checkPrice(audi.price)); // "Success! Price is within acceptable limits"
 // console.log(Car.checkPrice(bmw.price)); // "Error! Price exceeds the maximum"
 // console.log(Car.checkPrice(lalal.price)); // "Error! Price exceeds the maximum"
-let lalala = true;
-console.log(typeof lalala);
-lalala = String(lalala);
-console.log(typeof lalala);
-alert("5" - "1");
+let number = prompt("how", "");
+number == 5
+  ? alert(`lalala-5`)
+  : number < 10
+  ? alert(`tututu<10`)
+  : number == 10
+  ? alert(`ok`)
+  : alert(`x3`);
